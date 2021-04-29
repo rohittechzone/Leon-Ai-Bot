@@ -61,4 +61,4 @@ async def on_message(message):
                  await message.channel.send(search(word.replace('search',''))[0])
          except:
              await message.channel.send("Sorry I dont understand you")
-client.run('ODExOTQ4NzU1Mjc1MzUwMDM2.YC5oNA.FqbLoiLRX4dCajl9cL88M99wxNw')
+client.run(token)
